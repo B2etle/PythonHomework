@@ -2,7 +2,7 @@ from collections import Counter
 from functools import reduce
 from itertools import chain
 from string import ascii_lowercase
-from typing import List, Set
+from typing import Set
 
 
 def test_1_1(*strings: str) -> Set[str]:

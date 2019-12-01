@@ -22,5 +22,3 @@ def order_students_by_age(file_path: str):
         students_writer = DictWriter(write_students, students_reader.fieldnames)
         students_writer.writeheader()
         students_writer.writerows(students)
-
-order_students_by_age('/home/tamara/Documents/WorkSpace/Trainings/Introduction_to_Python/Python/PythonHomework/python_4_homework/students.csv')
